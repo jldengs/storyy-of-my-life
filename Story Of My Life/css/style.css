@@ -108,6 +108,9 @@ section{
 section.about .about-me-img{
     height:450px;
     border-radius: 250px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images.jpg) 30 stretch;
 }
 section.about h1{
     margin-bottom: 1rem;
